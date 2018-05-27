@@ -8,16 +8,18 @@
 </head>
 
 <body>
+    <!--ovo su primjeri za naslove-->
     <h1>Prvi naslov</h1>
     <h2>Drugi naslov</h2>
     <h3>Treći naslov</h3>
     <h4>Četvrti naslov</h4>
     <h5>Peti naslov</h5>
     <h6>Šesti naslov</h6>
-
+<!--pomoću ovo ga skupa (br,hr,br) radimo razmak horizontalnu crtu i razmak-->
     <br>
     <hr>
     <br>
+    <!--promjer paragrafa sa dijelom koji je podebljan-->
     <p>
         <strong>Ovaj dio teksta je strong</strong> dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem cupiditate
         porro modi, voluptate est dicta labore perspiciatis perferendis ratione cumque, reprehenderit minima blanditiis,
@@ -26,15 +28,18 @@
 
 
     </p>
+    <!--primjer paragrafa sa dijelom teksta koji je nakošen i dijelom teksta kji je link za google-->
     <p>
         <em>Ovaj dio teksat je emphesized</em> dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem cupiditate
         porro modi, voluptate est dicta labore perspiciatis
         <a href="https://www.google.hr/" target="blank"> ovaj dio teksta je link na google </a>, reprehenderit minima blanditiis, provident animi voluptates vel esse saepe!
 
     </p>
+
     <br>
     <hr>
     <br>
+    <!--primjer popisa bez rednih brojeva-->
     <ul>
         <li>Prva opcija</li>
         <li>Druga opcija</li>
@@ -42,27 +47,27 @@
         <li>Četvrta opcija</li>
         <li>Peta opcija</li>
     </ul>
+    <!--primjer popisa sa rednim brojevima-->
     <ol>
         <li>Prvi na popisu</li>
         <li>Drugi na pipisu</li>
         <li>Treći na popisu</li>
         <li>Četvrti na popisu</li>
         <li>Peti na popisu</li>
-
-
-
     </ol>
     <br>
     <hr>
     <br>
-
+<!--primjer tablice-->
     <table>
+        <!--kkreiranje stupaca-->
         <thead>
             <tr>Ime</tr>
             <tr>Prezime</tr>
             <tr>email</tr>
         </thead>
         <tbody>
+            <!--unos podataka u redove-->
             <tr>
                 <td>Vladimir</td>
                 <td>Budač</td>
@@ -82,17 +87,19 @@
         <hr>
         <br>
     </table>
+    <!--primjer unosa traženih podataka i slanje prema php preogaramu na obradu-->
+   <!--nije mi baš sve kristalno čisto jer u videu su drugčije naredbe-->
     <form action="nekiProces.php" method="POST">
         <div>
             <label for="">Ime</label>
             <input type="text" name="ime" placeholder="upiši ime">
-            
+
         </div>
 
         <div>
             <label for="">Prezime</label>
             <input type="text" name="prezime" placeholder="upiši prezime">
-            
+
 
         </div>
         <div>
@@ -121,12 +128,41 @@
         <div>
             <textarea name="poruka" id="" cols="30" rows="10" value="upiši svoju poruku"></textarea>
         </div>
+        <br>
+        <!--primjer za submit dugme koje će poslati unesene podatke dalje-->
+        <input type="submit" name="submit" vale="Submit">
+        
 
 
     </form>
+    <br>
+        <hr>
+        <br>
+        <!--primjeri za dugmad-->
+    <button>Pritisni me</button>
 
+    <br>
+    <hr>
+    <br>
+     <!--primjer za sliku i link na samu tu sliku-->
+    <a href="slike/slika.jpg">
+        <img src="slike/slika.jpg" alt="ptičice" width="100">
 
+    </a>
+    <br>
+    <hr>
+    <br>
 
+ <!--primjer za ciatat-->
+    <blockquote cite="http://traversymedia.com">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse magnam, fugiat fugit dignissimos sunt nesciunt deserunt repudiandae delectus illo dolorum velit nobis cum vitae cupiditate rerum aut dolores quam facere.
+    </blockquote>
+
+ <!--prijmer za objašnjenje kratice -->
+    <p>Ovaj <abbr title="World Wide Web">WWW</abbr>  je fenomenalan</p>
+<!--ovo neznam prevest na hrvatski-->
+<p> <cite>HTML brzinski tečaj</cite>  by Brad Traversy</p>
+    
 </body>
 
 </html>
